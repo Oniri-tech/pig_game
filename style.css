@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(251,88,30);
+    font-family: 'Seymour One', sans-serif;
+    text-align: center;
+}
+#inter{
+    display : flex;
+    height: 700px;
+    border-radius: 7px;
+}
+.joueur{
+    flex: 1 1 auto;
+}
+#milieu{
+    background-color: rgb(231,240,151);
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    color: #fff;
+    margin: 5px 0;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	padding: 0.8rem 2rem;
+	font: 24px "Margarine", sans-serif;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 2px;
+}
+.current{
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    height: 80px;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+.global{
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 30%;
+}
+#Joueur1{
+    border-radius: 7px 0 0 7px;
+    background-color: rgb(105,198,171);
+}
+#Joueur2{
+    border-radius: 0 7px 7px 0;
+    background-color: rgb(244,193,63);
+}
+#current1{
+    background-color: rgb(244,193,63);
+}
+#current2{
+    background-color: rgb(105,198,171);
+
+}
+#dés{
+    display: flex;
+    margin: 0 auto;
+}
+#qui{
+    height: 20px;
+    margin: 20px 0;
+}
+.de{
+    margin: 0 5px;
+}
+.tour{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: green;
+}
+.ble{
+    display: flex;
+}
+#tour1{
+    display: none;
+}
+#tour2{
+    display: none;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+    <script src="toto.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig Game</title>
+</head>
+<body>
+    <div id ="inter">
+    <div class="joueur" id ="Joueur1">
+        
+        <div class="global">
+            <div class="ble"><h1>Joueur 1</h1><div class="tour" id="tour1"></div></div>
+            <div id ="scoreglob1"></div>
+        </div>
+        <div class="current" id="current1">
+            <h4>Current</h4>
+            <div id="scorecur1"></div>
+        </div>
+    </div>
+    <div id ="milieu">
+        <div class="boutons">
+        <button type="button" id="new" style="background-color:rgb(20, 223, 54)">Nouvelle partie</button>
+        </div>
+        <div id ="qui"></div>
+        <div id="dés">
+        <img class="de" id="de1" src="images/dice-1.png">
+        <img class="de" id="de2" src="images/dice-1.png">
+        </div>
+        <br>
+        <div class="boutons">
+        <button type="button" id="roll" style="background-color: rgb(0, 4, 253);">LANCER</button>
+        </div>
+        <div class="boutons">
+        <button type="button" id="hold" style="background-color: rgb(228, 13, 13);">RETENIR LE SCORE</button>
+        </div>
+    </div>
+    <div class="joueur" id="Joueur2">
+        
+        <div class="global">
+            <div class="ble"><h1>Joueur 2</h1><div class="tour" id="tour2"></div></div>
+            <div id ="scoreglob2"></div>
+        </div>
+        <div class="current" id="current2">
+            <h4>Current</h4>
+            <div id="scorecur2"></div>
+        </div>
+    </div>
+    </div>  
+    
+</body>
+</html>
